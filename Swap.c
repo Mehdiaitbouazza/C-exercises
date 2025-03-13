@@ -3,12 +3,12 @@
 
 int main()
 {
-    int a = 5, b = 10, tmp;
+    int a = 15, b = 30;
 
-    tmp = a;
-    a = b;
-    b = tmp;
+    a = a + b;//a = 15 + 30 = 45;
+    b = a - b;//b = 45 - 30 = 15;
+    a = a - b;//a = 45 - 15 = 30;
 
-    printf("a=%d\nb=%d", a, b);
+    printf  ("a = %d\nb = %d",a ,b);
 }
-//program that swaps the values of two variables.
+
